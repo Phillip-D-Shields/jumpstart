@@ -6,3 +6,16 @@ body {
   font-family: 'Monoton', cursive;
   font-family: 'Open Sans', sans-serif;
 }
+
+
+/* header */
+
+nav li {
+  font-family: 'Open San', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+nav li .active {
+  color: #399bd1;
+}
