@@ -7,7 +7,16 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
 /* header */
 
 .navbar-default {
@@ -49,26 +58,38 @@ body {
   color: white;
   width: 51.3rem;
   margin: 0 auto;
+  padding-bottom: 2.8rem;
 }
 
 .jumbotron-text {
   padding: 11.85rem 0;
 }
 
-/* featured */
-.featured h2 {
-  font-size: 1.7rem;
-  font-weight: bold;
-  color: #399bd1;
-  padding: 0 1.4rem;
+.wrapper .btn {
+  width: 11.4rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  padding: 1.3rem 0;
 }
 
+.wrapper .btn:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.wrapper .btn:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+/* featured */
+
+.featured {
+  margin: 0 auto;
+}
 .featured img {
   width: 100%;
   height: auto;
   align-self: center;
-  padding: 1.4rem;
 }
+
 
 #featured-text h3 {
   font-size: 1.3rem;
@@ -83,3 +104,14 @@ body {
 
 
 /* projects */
+
+.project img {
+  width: 100%;
+  height: auto;
+  align-self: center;
+}
+
+/* having trouble */
+#learn-more {
+  text-align: center;
+}
