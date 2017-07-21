@@ -1,11 +1,12 @@
 $(document).ready(function() {
   $('.carousel').slick({
-    slidesToShow: 1,
-    autoplay: True,
+    slidesToScroll: 1,
+    autoplay: true,
     autoplaySpeed: 4000,
-    arrows: False,
-    pauseOnHover: False,
-    draggable: False
+    arrows: false,
+    draggable: false,
+    pauseOnFocus: false,
+    pauseOnHover: false
 
   });
 });
