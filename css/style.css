@@ -62,7 +62,11 @@ h2 {
 }
 
 .jumbotron-text {
-  padding: 11.85rem 0;
+  padding-top: 11.85rem;
+}
+
+.jumbo-button {
+  padding-bottom: 11.85rem;
 }
 
 .wrapper .btn {
@@ -79,6 +83,12 @@ h2 {
 
 .wrapper .btn:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
 }
 /* featured */
 
@@ -112,27 +122,33 @@ h2 {
   align-self: center;
 }
 
-.projects {
-  padding-bottom: 5.2rem;
+#projects {
+  padding-bottom: 5.85rem;
 }
 
 /* having trouble */
-#learn-more {
+#help {
   background-color: #f3f3f3;
 }
 
-.learn-more-text {
+.help-text {
   text-align: center;
   padding: 5.2rem 0;
 }
 
-.learn-more-text h2 {
+.help-text h2 {
   font-size: 2.5rem;
   font-weight: bold;
+  color: black;
   padding-bottom: 1.4rem;
 }
 
-.learn-more-text p {
+.help-text p {
   max-width: 42rem;
   margin: auto;
+}
+
+.help-button {
+  padding-top: 2.8rem;
+  padding-bottom: 5.2rem;
 }
